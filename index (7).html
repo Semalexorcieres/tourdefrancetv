@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live franceinfo</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    overflow: hidden;
+  }
+  .video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+</style>
+</head>
+<body>
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube.com/embed/NG7ZX42nZKc?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&playsinline=1"
+      allow="autoplay; encrypted-media; fullscreen"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
